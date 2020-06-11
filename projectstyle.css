@@ -56,11 +56,10 @@ header {
     margin: 0 12%;
     padding: 25px;
     font-family: Play;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
     border-bottom: ridge;
     border-width: 6px;
     border-color: #292828;
-    display: flex;
 }
 
 h1 {
@@ -72,8 +71,7 @@ h1 {
 
 header nav {
     background-color: #808080;
-    margin-left: 25%;
-    margin-top: 10px;
+    margin-left: 2%;
 }
 
 header nav a {
