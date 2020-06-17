@@ -50,23 +50,27 @@ table {
     background-color: #e3e1df;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 header {
     background-color: #808080;
     color: #ffffff;
     margin: 0 12%;
-    padding: 25px;
+    padding: 2.5rem;
     font-family: Play;
-    padding-bottom: 45px;
+    padding-bottom: 4.5rem;
     border-bottom: ridge;
-    border-width: 6px;
+    border-width: .6rem;
     border-color: #292828;
 }
 
 h1 {
     font-family: Montserrat Subrayada;
     background-color: #808080;
-    font-size: 45px;
-    margin: 5px;
+    font-size: 4.5rem;
+    margin: .5rem;
 }
 
 header nav {
@@ -81,10 +85,10 @@ header nav a {
     color: #ffffff;
     margin: 0;
     border: solid;
-    border-width: 1px;
+    border-width: .1rem;
     border-color: #000000;  
     float: left;
-    padding: 7px;
+    padding: .7rem;
 }
 
 header nav a:hover{
@@ -104,11 +108,11 @@ container {
 }
 
 container img {
-    width: 35%;
+    width: 25%;
     height: auto;
     margin-left: 1%; 
     border: solid;
-    border-width: 4px;
+    border-width: .4rem;
     border-color: #994192;
 }
 
@@ -121,19 +125,19 @@ container img {
 #info h2 {
     background-color: #262525;
     color: #d982c2;
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 #info a {
     background-color: #994192;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
     color: #ffffff;
     border: solid;
-    border-width: 1.5px;
+    border-width: .15rem;
     border-color: #000000;  
-    padding: 4px;
+    padding: .4rem;
 }
 
 #info a:hover{
@@ -141,9 +145,10 @@ container img {
 }
 
 #info p {
-    margin-top: 20px;
+    margin-top: 2rem;
     background-color: #262525;
     color: #ffffff;
+    font-size: 2rem;
 }
 
 #gal1 {
@@ -152,10 +157,11 @@ container img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 1.5rem;
 }
 
 .gallery1 {
-    margin: 15px;
+    margin: 1.5rem;
  }
   
 div.gallery1 img {
@@ -178,12 +184,13 @@ div.gallery1 a:hover{
     justify-content: center;
     flex-wrap: wrap;
     border-bottom: ridge;
-    border-width: 9px;
+    border-width: .9rem;
     border-color: #292828;
+    font-size: 1.5rem;
 }
 
 .gallery2 {
-    margin: 15px;
+    margin: 1.5rem;
  }
   
 div.gallery2 img {
@@ -200,7 +207,7 @@ div.gallery2 a:hover{
 }
 
 div.desc {
-    padding: 15px;
+    padding: 1.5rem;
     text-align: center;
     color: #ffffff;
 }
@@ -209,7 +216,7 @@ footer {
     margin: 0 12%;
     background-color: #808080;
     padding: 3%;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 
@@ -218,8 +225,8 @@ footer p{
     background-color: #808080;
     font-family: Play;
     color: #ffffff;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 footer .contact{
@@ -227,11 +234,10 @@ footer .contact{
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    margin: 0;
     border: solid;
-    border-width: 2px;
+    border-width: .2rem;
     border-color: #000000;  
-    padding: 7px;
+    padding: .7rem;
 }
 
 footer .contact:hover{
@@ -242,6 +248,7 @@ footer nav{
     background-color: #808080;
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 2.5rem;
 }
 
 footer nav a{
@@ -249,10 +256,10 @@ footer nav a{
 }
 
 footer nav a img{
-    width: 30px;
+    width: 3rem;
     height: auto;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 4rem;
+    margin-left: 10rem;
 }
 
 footer nav a:hover{
