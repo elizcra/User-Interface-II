@@ -115,16 +115,13 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: ridge;
-    border-width: 9px;
-    border-color: #292828;
 }
 
 #gal1{
     margin: 0 12%;
     background-color: #292828;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
 }
 
 .gallery1 {
@@ -132,7 +129,7 @@ section {
  }
   
 div.gallery1 img {
-    width: 100%;
+    width: 20rem;
     height: auto;
 }
 
@@ -141,6 +138,33 @@ div.gallery1 a{
 }
 
 div.gallery1 a:hover{
+    opacity: 0.25;
+}
+
+#gal2{
+    margin: 0 12%;
+    background-color: #292828;
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: ridge;
+    border-width: 9px;
+    border-color: #292828;
+}
+
+.gallery2 {
+    margin: 15px;
+ }
+  
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery2 a{
+    background-color: #292828;
+}
+
+div.gallery2 a:hover{
     opacity: 0.25;
 }
 
