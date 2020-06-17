@@ -59,7 +59,7 @@ header {
     padding-bottom: 45px;
     border-bottom: ridge;
     border-width: 6px;
-    border-color: #292828;
+    border-color: #262525;
 }
 
 h1 {
@@ -98,19 +98,19 @@ header nav a:hover{
 }
 
 #title h2{
-    background-color: #292828;
+    background-color: #262525;
     color: #d982c2;
     font-size: 40px;
 }
 
 #title p{
-    background-color: #292828;
+    background-color: #262525;
     color: #ffffff;
     font-size: 30px;
 }
 
 section {
-    background-color: #292828;
+    background-color: #262525;
     font-family: Play;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@ section {
 
 #gal1{
     margin: 0 12%;
-    background-color: #292828;
+    background-color: #262525;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -134,7 +134,7 @@ div.gallery1 img {
 }
 
 div.gallery1 a{
-    background-color: #292828;
+    background-color: #262525;
 }
 
 div.gallery1 a:hover{
@@ -143,12 +143,12 @@ div.gallery1 a:hover{
 
 #gal2{
     margin: 0 12%;
-    background-color: #292828;
+    background-color: #262525;
     display: flex;
     flex-wrap: nowrap;
     border-bottom: ridge;
     border-width: 9px;
-    border-color: #292828;
+    border-color: #262525;
 }
 
 .gallery2 {
@@ -161,7 +161,7 @@ div.gallery2 img {
 }
 
 div.gallery2 a{
-    background-color: #292828;
+    background-color: #262525;
 }
 
 div.gallery2 a:hover{
@@ -172,7 +172,7 @@ div.desc {
     padding: 15px;
     text-align: center;
     color: #ffffff;
-    background-color: #292828;
+    background-color: #262525;
 }
 
 footer {
@@ -227,4 +227,102 @@ footer nav a img{
 
 footer nav a:hover{
     opacity: 0.25;
+}
+
+@media (max-width: 900px) {
+    #gal1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        background-color: #262525;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+    }
+      
+    h1 {
+        background-color: #262525;
+    }
+      
+    header nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #262525;
+    }
+      
+    header nav a {
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    #title h2 {
+        display: none;
+    }
+
+    #title p {
+        font-size: 2.5rem;
+        text-decoration: underline;
+    }
+
+    #gal1{
+        margin: 0 12%;
+        background-color: #262525;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallery1 {
+        margin-top: 3rem;
+        margin-bottom: .1rem;
+     }
+      
+    div.gallery1 img {
+        width: 15rem;
+        height: auto;
+    }
+    
+    div.gallery1 a{
+        background-color: #262525;
+    }
+    
+    div.gallery1 a:hover{
+        opacity: 0.25;
+    }
+
+    #gal2{
+        margin: 0 12%;
+        background-color: #262525;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-bottom: ridge;
+        border-width: 9px;
+        border-color: #262525;
+    }
+    
+    .gallery2 {
+        margin: 15px;
+     }
+      
+    div.gallery2 img {
+        width: 12rem;
+        height: auto;
+    }
+    
+    div.gallery2 a{
+        background-color: #262525;
+    }
+    
+    div.gallery2 a:hover{
+        opacity: 0.25;
+    }
+
+    footer nav img {
+        display: none;
+    }
 }
