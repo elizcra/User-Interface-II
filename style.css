@@ -101,13 +101,13 @@ div {
     margin-right: 12%;
 }
 
-container {
+#intro {
     display: inline-flex;
     margin: 3% 12%;
     background-color: #262525;
 }
 
-container img {
+#intro img {
     width: 25%;
     height: auto;
     margin-left: 1%; 
@@ -291,7 +291,7 @@ footer nav a:hover{
     
     }
     
-    container {
+    #intro {
       display: flex;
       margin-top: 0;
       flex-direction: column;
@@ -308,8 +308,9 @@ footer nav a:hover{
     #info p {
       margin-left: 2.5rem;
     }
-    
+
     footer nav a{
       display: none;
     } 
+
   }
