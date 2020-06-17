@@ -146,15 +146,12 @@ container img {
     color: #ffffff;
 }
 
-section {
+#gal1 {
     background-color: #262525;
     font-family: Play;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: ridge;
-    border-width: 9px;
-    border-color: #292828;
 }
 
 .gallery1 {
@@ -171,6 +168,34 @@ div.gallery1 a{
 }
 
 div.gallery1 a:hover{
+    opacity: 0.25;
+}
+
+#gal2 {
+    background-color: #262525;
+    font-family: Play;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: ridge;
+    border-width: 9px;
+    border-color: #292828;
+}
+
+.gallery2 {
+    margin: 15px;
+ }
+  
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery2 a{
+    background-color: #262525;
+}
+
+div.gallery2 a:hover{
     opacity: 0.25;
 }
 
